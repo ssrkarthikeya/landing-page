@@ -1,0 +1,16 @@
+/* app.component.css */
+.grid-pattern {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 3.9rem 3.9rem, 3.9rem 3.9rem, 100% 100%;
+    animation: grid-animation 8s linear infinite;
+  }
+  
+  @keyframes grid-animation {
+    0% {
+        background-position: 3.9rem 3.9rem, 3.9rem 3.9rem, 3.9rem 3.9rem;
+      }
+    100% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+  }

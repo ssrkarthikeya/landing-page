@@ -21,11 +21,6 @@
     "lib": [
       "ES2022",
       "dom"
-    ],
-    "plugins": [
-      {
-        "name": "@angular/language-service"
-      }
     ]
   },
   "angularCompilerOptions": {

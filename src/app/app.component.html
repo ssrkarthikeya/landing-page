@@ -1,9 +1,16 @@
-<div class="bg-gradient-to-br from-[#08203e] to-[#365e75]">
-  <div class="h-[150vh] grid-pattern">
-    <div class="container ml-14 fixed">
-      <!-- Navigation -->
-      <app-header></app-header>
-      <app-about-typewriter></app-about-typewriter>
-    </div>
+<div class="pulsing-gradient"> 
+  <!-- bg-gradient-to-br from-[#08203e] to-[#365e75] -->
+  <div class="grid-pattern">
+
+    <app-header class="flex flex-col h-40"></app-header>
+
+    <main class="h-lvh flex flex-1 gap-8 flex-row justify-between pl-20">
+      <app-about-typewriter class="basis-1/2"></app-about-typewriter>
+      <app-head-shot class="basis-1/2"></app-head-shot>
+    </main>
+
+    <footer>
+      Footer
+    </footer>
   </div>
 </div>

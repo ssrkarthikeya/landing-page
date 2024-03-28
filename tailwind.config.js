@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1600px',
+        '4xl': '1700px',
+      },
+      height: {
+        '128': '32rem',
+      }
+    },
     fontFamily: {
       'mono': ['IBM Plex Mono', 'monospace'],
     }

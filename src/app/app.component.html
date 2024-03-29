@@ -1,16 +1,17 @@
-<div class="pulsing-gradient"> 
+<div class="pulsing-gradient">
   <!-- bg-gradient-to-br from-[#08203e] to-[#365e75] -->
-  <div class="grid-pattern">
+  <div class="h-screen w-screen grid-pattern">
+    <app-header class="flex flex-col h-40 px-20"></app-header>
 
-    <app-header class="flex flex-col h-40"></app-header>
-
-    <main class="h-lvh flex flex-1 gap-8 flex-row justify-between pl-20">
-      <app-about-typewriter class="basis-1/2"></app-about-typewriter>
-      <app-head-shot class="basis-1/2"></app-head-shot>
+    <main
+      class="flex md:gap-8 lg:flex-row flex-col-reverse md:justify-between px-20 md:pt-0 pt-20"
+    >
+      <app-about-typewriter class="md:basis-1/2 h-20"></app-about-typewriter>
+      <app-head-shot class="md:basis-1/2"></app-head-shot>
     </main>
 
-    <footer>
-      Footer
+    <footer class="mt-40 px-20">
+      <app-footer></app-footer>
     </footer>
   </div>
 </div>

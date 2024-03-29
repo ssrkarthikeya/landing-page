@@ -1,6 +1,10 @@
 /* app.component.css */
 .grid-pattern {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-size: 3.9rem 3.9rem, 3.9rem 3.9rem, 100% 100%;
   animation: grid-animation 8s linear infinite;
@@ -13,6 +17,20 @@
 
   100% {
     background-position: 0 0, 0 0, 0 0;
+  }
+}
+
+/* Adjust background size for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .grid-pattern {
+    background-size: 2.9rem 2.9rem, 2.9rem 2.9rem, 100% 100%;
+  }
+}
+
+/* Adjust background size for screens smaller than 576px */
+@media screen and (max-width: 576px) {
+  .grid-pattern {
+    background-size: 1.9rem 1.9rem, 1.9rem 1.9rem, 100% 100%;
   }
 }
 

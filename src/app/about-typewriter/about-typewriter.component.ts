@@ -15,7 +15,6 @@ export class AboutTypewriterComponent implements OnInit {
     "I excel in DevOps with tools like Kubernetes, Jenkins, and Docker, and have expertise in AWS, Azure, and IBM Cloud",
     "I'm also passionate about ML & Deep Learning"]; // Add your job titles here
 
-  currentText = "Hi!";
   typingSpeed = 50; // Adjust typing speed (milliseconds per character)
   typingAnimation: string = '';
   isRoleComplete: boolean = false;

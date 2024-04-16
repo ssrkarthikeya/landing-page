@@ -10,12 +10,19 @@ import { Component, OnInit } from '@angular/core';
 export class AboutTypewriterComponent implements OnInit {
 
   jobTitles: string[] = ["Hi!",
-    "I'm a Full Stack Developer At IBM",
-    "proficient in Spring Boot with Java and Angular with Typescript",
-    "I excel in DevOps with tools like Kubernetes, Jenkins, and Docker, and have expertise in AWS, Azure, and IBM Cloud",
+    "I'm a Cloud Native Full Stack Developer At IBM",
+    "Some of my tech skills are...",
+    "NoSQL solutions like MongoDB & AWS Dynamo DB",
+    "RDBMS like Oracle, Microsoft SQL, IBM DB2",
+    "Express JS for Backend Development",
+    "Angular 17 for Frontend Development",
+    "All powered by Node JS",
+    "DevOps tooling like Kubernetes, Jenkins, and Docker",
+    "Cloud solutions like AWS, Azure, and IBM Cloud",
+    "and...",
     "I'm also passionate about ML & Deep Learning"]; // Add your job titles here
 
-  typingSpeed = 50; // Adjust typing speed (milliseconds per character)
+  typingSpeed = 42; // Adjust typing speed (milliseconds per character)
   typingAnimation: string = '';
   isRoleComplete: boolean = false;
   jobIndex: number = 0;

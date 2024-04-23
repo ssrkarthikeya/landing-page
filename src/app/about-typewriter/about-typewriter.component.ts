@@ -11,7 +11,7 @@ export class AboutTypewriterComponent implements OnInit {
 
   jobTitles: string[] = ["Hi!",
     "I'm a Cloud Native Full Stack Developer At IBM",
-    "Some of my tech skills are...",
+    "My skillset includes...",
     "NoSQL solutions like MongoDB & AWS Dynamo DB",
     "RDBMS like Oracle, Microsoft SQL, IBM DB2",
     "Express JS for Backend Development",
